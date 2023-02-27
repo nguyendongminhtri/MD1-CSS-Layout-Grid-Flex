@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .grid-container {
+            border: 1px solid black;
+            background-color: mintcream;
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px;
+            /*chỉ số chiều rộng tối đa 4 colum cho 1 row trong grid*/
+            gap: 200px;
+            /*có 2 chỉ số trái và phải giữa các ô*/
+        }
+
+        .grid-container > div {
+            border: 1px solid black;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+<h1>gap: 2 chỉ số + display: grid --> Tạo phân chia và khoảng cách giữa các ô trong lưới (grid)</h1>
+<div class="grid-container">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    #main {
+      width: 220px;
+      height: 300px;
+      border: 1px solid black;
+      display: flex;
+      /*align-items: center;*/
+      /*align-items: start;*/
+      align-items: end;
+    }
+
+    #main div {
+      flex: 1;
+      border: 1px solid black;
+      display: flex;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+<h1>align-items: center --> đi kèm display:flex --> Căn  các dàn trang của flex vào giữa các vùng</h1>
+<h1>align-items: start --> đi kèm display:flex --> Căn  các dàn trang của flex vào đầu các phân vùng</h1>
+<h1>align-items: end --> đi kèm display:flex -->Căn các dàn trang của flex vào cuối các phân vùng</h1>
+<div id="main">
+  <div style="background-color:coral;min-height:30px;">RED</div>
+  <div style="background-color:lightblue;min-height:50px;">BLUE</div>
+  <div style="background-color:lightgreen;min-height:190px;">Green div with more content.</div>
+</div>
+</body>
+</html>
